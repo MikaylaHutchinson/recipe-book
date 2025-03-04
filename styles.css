@@ -7,16 +7,23 @@ h1 {
     color: goldenrod;
     font-size: 70px;
     font-family: 'Segoe UI', cursive, Calibri;
+    margin: 10px;
 }
 
-h2 {
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-li {
-    color: black;
-    list-style-type: none;
+.recipe-card {
+    width: 500px;
     font-size: 20px;
-    margin-bottom: 5px;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.recipe-card a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.recipe-card img {
+    display: block;
+    width: 500px;
 }
